@@ -1,11 +1,14 @@
+import React from 'react';
+import {BrowserRouter} from "react-router-dom";
+import ButtonGradient from "./assets/svg/ButtonGradient.jsx";
 
-function App() {
+const App = () => {
     return (
-    <><h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
-    </>
-  )
+        <>
+            <div>App</div>
+            <ButtonGradient></ButtonGradient>
+        </>
+    )
 }
+export default App;
 
-export default App
